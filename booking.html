@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session | FitCoach Elite</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            FitCoach Elite
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="booking.html">Booking</a></li>
+        </ul>
+    </nav>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+
+        <div class="booking-card">
+
+            <h1>Book Your Coaching Session</h1>
+
+            <p>
+                Fill out the form below and start your
+                fitness transformation today.
+            </p>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Full Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                >
+
+                <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    required
+                >
+
+                <input
+                    type="date"
+                    required
+                >
+
+                <select required>
+                    <option value="">
+                        Select Fitness Goal
+                    </option>
+
+                    <option>
+                        Weight Loss
+                    </option>
+
+                    <option>
+                        Muscle Gain
+                    </option>
+
+                    <option>
+                        Strength Training
+                    </option>
+
+                    <option>
+                        General Fitness
+                    </option>
+                </select>
+
+                <textarea
+                    rows="5"
+                    placeholder="Additional Notes"
+                ></textarea>
+
+                <!-- Opens Modal -->
+                <a href="#success-modal" class="btn-primary submit-btn">
+                    Schedule Session
+                </a>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Modal -->
+    <div id="success-modal" class="modal">
+
+        <div class="modal-content">
+
+            <div class="checkmark">
+                ✓
+            </div>
+
+            <h2>Booking Confirmed!</h2>
+
+            <p>
+                Thank you for choosing FitCoach Elite.
+                Your appointment request has been received.
+            </p>
+
+            <a href="#" class="btn-primary">
+                Close
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 FitCoach Elite. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
